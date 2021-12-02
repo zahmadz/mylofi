@@ -1,0 +1,22 @@
+.song-cover{
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 20vw;
+        border-radius: 50%;
+
+        @media screen and (max-width: 720px) {
+            width: 40vw;
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 50vw;
+        }
+    }
+
+}

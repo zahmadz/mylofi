@@ -1,0 +1,11 @@
+.App{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292A2D
+}
+
+
+@import './_cover.scss';
+@import './_player.scss';

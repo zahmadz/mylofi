@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Dawn",
+        "artist": "Toonorth",
+        "id": "1",
+        "active": "false",
+        "cover": "https://chillhop.com/wp-content/uploads/2021/05/732128e1da8fd5f6292ffc1926a2ea840a54f4d0-1024x1024.jpg",
+        "audio": "https://mp3.chillhop.com/serve.php/?mp3=17941"
+    },
+    {
+        "name": "New Moon",
+        "artist": "Toonorth",
+        "id": "2",
+        "active": "false",
+        "cover": "https://chillhop.com/wp-content/uploads/2021/05/732128e1da8fd5f6292ffc1926a2ea840a54f4d0-1024x1024.jpg",
+        "audio": "https://mp3.chillhop.com/serve.php/?mp3=17931"
+    },
+    {
+        "name": "travelbag",
+        "artist": "mommy, Sleepy Fish",
+        "id": "3",
+        "active": "false",
+        "cover": "https://chillhop.com/wp-content/uploads/2021/05/1245c0271290a3196328c0cf4aaa910cd873dfe7-1024x1024.jpg",
+        "audio": "https://mp3.chillhop.com/serve.php/?mp3=19058"
+    },
+    {
+        "name": "railway pulse",
+        "artist": "mommy, Sleepy Fish",
+        "id": "4",
+        "active": "false",
+        "cover": "https://chillhop.com/wp-content/uploads/2021/05/1245c0271290a3196328c0cf4aaa910cd873dfe7-1024x1024.jpg",
+        "audio": "https://mp3.chillhop.com/serve.php/?mp3=19060"
+    },
+    {
+        "name": "I Main Samus Now",
+        "artist": "Sleepy Fish",
+        "id": "5",
+        "active": "false",
+        "cover": "https://chillhop.com/wp-content/uploads/2021/09/2ce75252f5419a45d76bb93424ac1eae3e688b17-1024x1024.jpg",
+        "audio": "https://mp3.chillhop.com/serve.php/?mp3=24822"
+    }
+]
