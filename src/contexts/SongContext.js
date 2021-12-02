@@ -5,8 +5,16 @@ export const SongContext = createContext()
 
 export const SongContextProvider = props => {
 
-    const [songs, setSongs] = useState([])
+    const [songs, setSongs] = useState([{
+        name: "",
+        artist: "",
+        id: "",
+        active: "",
+        cover: "",
+        audio: ""
+    }])
     const [activeSong, setActiveSong] = useState(0)
+    const [isPlaying, setIsPlaying] = useState(false)
 
 
     useEffect(() => {
@@ -14,7 +22,7 @@ export const SongContextProvider = props => {
     }, [])
 
     return (
-        <SongContext.Provider value={{songs, activeSong, setActiveSong}}>
+        <SongContext.Provider value={{songs, activeSong, setActiveSong, isPlaying, setIsPlaying}}>
             {props.children}
         </SongContext.Provider>
     )

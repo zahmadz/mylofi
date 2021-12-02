@@ -5,7 +5,7 @@ import Player from './Player'
 
 function Song() {
 
-    const {songs, activeSong} = useContext(SongContext)
+    const {songs, activeSong, isPlaying, setIsPlaying} = useContext(SongContext)
     const [currentSong, setCurrentSong] = useState({})
 
     useEffect(() => {
@@ -15,8 +15,7 @@ function Song() {
     return (
         <div>
             <Cover currentSong={currentSong} />
-            <Player />
-            <audio src={currentSong.audio}></audio>
+            <Player props={{currentSong, setCurrentSong, isPlaying, setIsPlaying}} />
         </div>
     )
 }
